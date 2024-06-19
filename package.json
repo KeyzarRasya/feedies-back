@@ -1,7 +1,7 @@
 {
-  "name": "feedies-back",
+  "name": "feedies-dev",
   "version": "1.0.0",
-  "description": "",
+  "description": "this package is use to make feedies application developer work easier",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,11 +1,10 @@
 const {v4:uuid} = require('uuid');
 const axios = require('axios')
 
-function Feedies(){
+function Feedies({apiKey}){
 	let isConnected = false;
 	let connectionId = "";
-
-	this.connect = async({ apiKey }) => {
+	this.connect = async({apiKey}) => {
         try {
 			if(isConnected){
 				console.error('the connection is still open');
@@ -46,6 +45,7 @@ function Feedies(){
 
 	this.send = async({sender, feedback}) => {
 		try{
+			await this.connect({apiKey:apiKey});
 			if(!isConnected){
 				console.error('Connection closed, open it to make a request');
 				return;
