@@ -9,7 +9,7 @@ This is package for Feedies Developer to integrate their application
 ![image](https://github.com/KeyzarRasya/feedies-back/assets/76760159/d9025707-94e6-43ec-a564-726fcff60265)
 
 <br>
-Obtain your application on Feedies Setting Menu
+Obtain your API KEY on Feedies Setting Menu
 
 <h2>Send Method</h2><br>
 
@@ -17,6 +17,6 @@ Obtain your application on Feedies Setting Menu
 
 <br>
 After constructing the Feedies Class, all you need to do is use send method to actually send the feedback from user<br>
-and now the feedback is send to your feedies account and you can see at your dashboard.
+and now the feedback is send to your feedies account and you can see at your dashboard.<br>
 this method is containing the connect and disconnect method so you dont have to worry about the connection.
 
